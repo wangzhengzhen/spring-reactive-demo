@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-webflux-demo
+  profiles:
+    active:
+    include:
+  scan:
+    basePackages:
+  main:
+    allow-bean-definition-overriding: true
+logging:
+  level:
+    root: INFO
+    com.engrz.demo.spring: DEBUG
