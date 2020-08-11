@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.websocket.handler;
+package com.engrz.demo.spring.reactive.websocket.handler;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.cors.CorsConfiguration;

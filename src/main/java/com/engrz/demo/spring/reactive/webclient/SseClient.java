@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.webclient;
+package com.engrz.demo.spring.reactive.webclient;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;

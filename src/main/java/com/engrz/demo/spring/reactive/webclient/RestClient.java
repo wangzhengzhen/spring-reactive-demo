@@ -1,8 +1,4 @@
-package com.engrz.demo.spring.webclient;
-
-import org.springframework.http.MediaType;
-import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
+package com.engrz.demo.spring.reactive.webclient;
 
 public class RestClient {
 

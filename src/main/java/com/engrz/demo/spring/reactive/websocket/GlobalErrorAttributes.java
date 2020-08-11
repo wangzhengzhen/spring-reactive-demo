@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.websocket;
+package com.engrz.demo.spring.reactive.websocket;
 
 import org.springframework.boot.web.reactive.error.DefaultErrorAttributes;
 import org.springframework.stereotype.Component;

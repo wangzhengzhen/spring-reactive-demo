@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.webflux.controller;
+package com.engrz.demo.spring.reactive.webflux.controller;
 
 import org.springframework.http.codec.ServerSentEvent;
 import org.springframework.web.bind.annotation.GetMapping;

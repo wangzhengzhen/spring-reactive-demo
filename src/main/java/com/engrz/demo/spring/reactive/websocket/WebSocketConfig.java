@@ -1,6 +1,6 @@
-package com.engrz.demo.spring.websocket;
+package com.engrz.demo.spring.reactive.websocket;
 
-import com.engrz.demo.spring.websocket.handler.EchoHandler;
+import com.engrz.demo.spring.reactive.websocket.handler.EchoHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

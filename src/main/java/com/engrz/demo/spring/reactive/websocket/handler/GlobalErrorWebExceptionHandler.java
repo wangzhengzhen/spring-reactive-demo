@@ -1,6 +1,6 @@
-package com.engrz.demo.spring.websocket.handler;
+package com.engrz.demo.spring.reactive.websocket.handler;
 
-import com.engrz.demo.spring.websocket.JsonHttpMessageWriter;
+import com.engrz.demo.spring.reactive.websocket.JsonHttpMessageWriter;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;
 import org.springframework.boot.autoconfigure.web.reactive.error.AbstractErrorWebExceptionHandler;
 import org.springframework.boot.web.reactive.error.ErrorAttributes;

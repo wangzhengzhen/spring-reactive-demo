@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.webflux;
+package com.engrz.demo.spring.reactive.webflux;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

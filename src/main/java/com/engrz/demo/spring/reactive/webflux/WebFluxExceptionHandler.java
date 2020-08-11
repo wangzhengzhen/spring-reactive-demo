@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.webflux;
+package com.engrz.demo.spring.reactive.webflux;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.server.ServerWebExchange;

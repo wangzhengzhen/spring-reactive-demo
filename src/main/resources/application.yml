@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-webflux-demo
+    name: spring-reactive-demo
   profiles:
     active:
     include:

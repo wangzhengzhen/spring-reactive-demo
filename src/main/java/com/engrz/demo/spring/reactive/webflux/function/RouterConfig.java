@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.function;
+package com.engrz.demo.spring.reactive.webflux.function;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

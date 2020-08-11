@@ -1,4 +1,4 @@
-package com.engrz.demo.spring.websocket;
+package com.engrz.demo.spring.reactive.websocket;
 
 import org.reactivestreams.Publisher;
 import org.springframework.core.ResolvableType;
