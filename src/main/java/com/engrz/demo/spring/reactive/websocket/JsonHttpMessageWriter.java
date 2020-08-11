@@ -19,7 +19,7 @@ public class JsonHttpMessageWriter implements HttpMessageWriter<Map<String, Obje
     @NonNull
     @Override
     public List<MediaType> getWritableMediaTypes() {
-        return Collections.singletonList(MediaType.APPLICATION_JSON_UTF8);
+        return Collections.singletonList(MediaType.APPLICATION_JSON);
     }
 
     @Override
