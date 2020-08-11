@@ -1,5 +1,6 @@
 package com.engrz.demo.spring.websocket;
 
+import com.engrz.demo.spring.websocket.handler.EchoHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,6 +26,8 @@ public class WebSocketConfig {
         final SimpleUrlHandlerMapping mapping = new SimpleUrlHandlerMapping();
         mapping.setOrder(Ordered.HIGHEST_PRECEDENCE);
         mapping.setUrlMap(map);
+        // 已实现 CorsConfigurationSource 接口
+//        mapping.setCorsConfigurationSource();
         return mapping;
     }
 
