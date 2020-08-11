@@ -13,7 +13,7 @@ public class WsClient {
     public static void main(final String[] args) {
         final WebSocketClient client = new ReactorNettyWebSocketClient();
         client.execute(URI.create("ws://localhost:8080/echo"), session ->
-                session.send(Flux.just(session.textMessage("Hello")))
+                session.send(Flux.just(session.textMessage("Hello World! ")))
                         .thenMany(session.receive().take(1).map(WebSocketMessage::getPayloadAsText))
                         .doOnNext(System.out::println)
                         .then())
